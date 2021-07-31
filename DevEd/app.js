@@ -33,3 +33,24 @@
 // const combined = name + age;
 // console.log(combined);
 // console.log(typeof combined);
+
+// this
+
+// const user = {
+//   name: 'hasan',
+//   age: 33,
+//   married: true,
+//   purchases: ['phone', 'car', 'laptop'],
+
+//   sayName: () => {
+//     console.log(this.name);
+//   },
+// };
+
+// user.sayName();
+
+// function saymyAge() {
+//   console.log(`My age is ${this}`);
+// }
+
+// saymyAge();
