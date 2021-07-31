@@ -5,7 +5,7 @@
 
 function Employee(name,age){
     this.name = name;
-    this.age = age:
+    this.age = age;
     // this.showInfos = function(){
     //     console.log(information)
     // }
