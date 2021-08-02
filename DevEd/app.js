@@ -54,6 +54,33 @@
 // }
 
 // saymyAge();
+// last
+// const text = document.querySelector('.title');
+// const changeColor = document.querySelector('.changeColor');
 
-const userList = document.querySelectorAll.(".list li")
-console.log(userList);
+// // text.style.color = 'red';
+// // text.classList.add('change');
+// // text.classList.remove('change');
+
+// changeColor.addEventListener('click', function () {
+//   text.classList.toggle('change');
+// });
+
+const userList = document.querySelector('.list');
+const listInput = document.querySelector('.list-input');
+const addButton = document.querySelector('.btn');
+// console.log(userList);
+
+// for (user of userList) {
+//   user.addEventListener('click', function () {
+//     this.style.color = 'red';
+//   });
+// }
+
+addButton.addEventListener('click', function () {
+  const newLi = document.createElement('li');
+  const liContent = document.createTextNode(listInput.value);
+
+  newLi.appendChild(liContent);
+  userList.appendChild(newLi);
+});
