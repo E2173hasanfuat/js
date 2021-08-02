@@ -54,3 +54,6 @@
 // }
 
 // saymyAge();
+
+const userList = document.querySelectorAll.(".list li")
+console.log(userList);
